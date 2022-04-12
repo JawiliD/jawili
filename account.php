@@ -25,14 +25,14 @@ else if (isset($_REQUEST['logout'])===true) {
     transform: translateY(5rem)
 }
 .cover {
-    background-image: url('images/photo-profile-background.avif');
+    background-image: url('images/maze.png');
     background-size: cover;
     background-repeat: no-repeat
 }
 
 body {
     background: #654ea3;
-    background: linear-gradient(to right, #e96443, #904e95);
+    background: linear-gradient(to right, #00C291, #FFFF66);
     min-height: 100vh;
     overflow-x: hidden
 }</style>
@@ -44,7 +44,7 @@ body {
         <div class="bg-white shadow rounded overflow-hidden">
             <div class="px-4 pt-0 pb-4 cover">
                 <div class="media align-items-end profile-head">
-                    <div class="profile mr-3"><img src="images/photo-profile.avif" alt="..." width="150" class="rounded mb-2 img-thumbnail"><a href="?logout" class="btn btn-outline-dark btn-sm btn-block">Sign out</a>
+                    <div class="profile mr-3"><img src="images/profile-pic.jpg" alt="..." width="150" class="rounded mb-2 img-thumbnail"><a href="?logout" class="btn btn-outline-dark btn-sm btn-block">Sign out</a>
 
 
                     </div>
@@ -72,9 +72,9 @@ body {
             <div class="px-4 py-3">
                 <h5 class="mb-0">Expertise </h5>
                 <div class="p-4 rounded shadow-sm bg-light">
-                    <p class="font-italic mb-0">Full-stack Web Developer</p>
-                    <p class="font-italic mb-0">Mobile App Developer</p>
-                    <p class="font-italic mb-0">Photographer/Videographer</p>
+                    <p class="font-italic mb-0">Graphic Artist</p>
+                    <p class="font-italic mb-0">2D and 3D Animator</p>
+                    <p class="font-italic mb-0">Game Developer</p>
                 </div>
             </div>
 
